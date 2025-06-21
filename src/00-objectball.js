@@ -153,7 +153,7 @@ function shoeSize(playerName){
 }
 
 
-function teamColors(playerName){
+function teamColors(){
         const object=gameObject();
         const color=[];
         for(let key in object){
@@ -163,7 +163,7 @@ function teamColors(playerName){
         return color;
     }
 
-function teamNames(playerName){
+function teamNames(){
   const object=gameObject();
   const names=[];
   for(let key in object){
